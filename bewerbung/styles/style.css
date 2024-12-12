@@ -1,3 +1,6 @@
+
+
+
 body {
     padding: 0;
     margin: 0;
@@ -16,6 +19,8 @@ body {
         "main     aside"
         "footer   footer"
     ;
+    background-color: #F2D0A7;
+    font-family: content;
 }
 nav {
     grid-area: nav;
@@ -39,16 +44,26 @@ header {
 h1 {
     color: white;
     font-size: 50px;
-    text-shadow: -1px 1px 0 #000,
-                    1px 1px 0 #000,
-                    1px -1px 0 #000,
-                    -1px -1px 0 #000;
+    text-shadow: -1px 1px 0 #F2D0A7,
+                    1px 1px 0 #F2D0A7,
+                    1px -1px 0 #F2D0A7,
+                    -1px -1px 0 #F2D0A7;
     margin: 15px;
 }
 
 main {
     grid-area: main;
-    background-color: red;
+}
+p, h1 {
+    color: #1D1C17;
+}
+p {
+    font-size: 18px;
+    line-height: 34px;
+}
+h2, h3, h4, h5, h6 {
+    color: #8C4F2B;
+    font-family: headings;
 }
 aside {
     grid-area: aside;
