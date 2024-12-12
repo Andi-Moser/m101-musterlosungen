@@ -8,7 +8,7 @@ body {
     display: grid;
 
     grid-template-columns: 66% 34%;
-    grid-template-rows: 100px 200px auto 200px;
+    grid-template-rows: 100px 400px auto 200px;
 
     grid-template-areas:
         "nav      nav" 
@@ -23,8 +23,29 @@ nav {
 }
 header {
     grid-area: header;
-    background-color: green;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-position: center;
+
+    text-align: center;
+    padding-top: 40px;
 }
+
+.portrait {
+    max-width: 250px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    text-shadow: -1px 1px 0 #000,
+                    1px 1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px -1px 0 #000;
+    margin: 15px;
+}
+
 main {
     grid-area: main;
     background-color: red;
