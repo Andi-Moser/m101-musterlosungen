@@ -1,0 +1,57 @@
+body {
+    border: 1px solid #888888;
+    margin: 3% auto;
+    width: 21cm;
+    min-height: 27.9cm;
+    box-shadow: -6px 6px 12px #888888;
+    padding: 2cm 2.5cm;
+  }
+
+/** Wie wähle ich das Bild an?? **/
+.logo {
+  width: 225px;
+}
+
+.margin-small {
+  margin-bottom: 30px;
+}
+.margin-medium {
+  margin-bottom: 50px;
+}
+.margin-big {
+  margin-bottom: 100px;
+}
+.margin-left-50 {
+  margin-left: 50%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #333333;
+}
+
+th {
+  text-align: left;
+  background-color: #c1c1c1;
+}
+
+.no-border {
+  border: none;
+}
+
+.sum {
+  border-bottom: 3px double #333333;
+}
+
+.signature {
+  min-height: 50px;
+  max-height: 80px;
+}
+
+ul {
+  padding-left: 18px;
+}
