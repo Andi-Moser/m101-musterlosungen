@@ -24,7 +24,23 @@ body {
 }
 nav {
     grid-area: nav;
-    background-color: blue;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+nav a {
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    color: #1D1C17;
+    padding: 15px 0px 7px 0px;
+    background-color: #A68B81;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 20px;
+}
+nav a:hover {
+    background-color: #a77e6f;
 }
 header {
     grid-area: header;
