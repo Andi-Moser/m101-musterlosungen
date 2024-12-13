@@ -11,7 +11,7 @@ body {
     display: grid;
 
     grid-template-columns: 66% 34%;
-    grid-template-rows: 100px 400px auto 200px;
+    grid-template-rows: 100px 400px auto auto;
 
     grid-template-areas:
         "nav      nav" 
@@ -87,5 +87,21 @@ aside {
 }
 footer {
     grid-area: footer;
-    background-color: purple;
+    text-align: center;
+    padding: 20px 0;
+}
+fieldset {
+    width: 400px;
+    margin: 0 auto;
+}
+.form-element {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+label {
+    width: 30%;
+}
+input, textarea, select {
+    width: 70%;
 }

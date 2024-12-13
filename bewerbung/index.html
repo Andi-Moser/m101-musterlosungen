@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,6 +32,48 @@
         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
     </main>
     <aside>ASIDE</aside>
-    <footer>FOOTER</footer>
+    <footer>
+        <form action="https://formlog.offline.ch/log" method="POST">
+            <fieldset>
+                <legend>Ihre Daten</legend>
+
+                <div class="form-element">
+                    <label for="firstname">Name</label>
+                    <input type="text" id="firstname" name="firstname">
+                </div>
+                <div class="form-element">
+                    <label for="lastname">Nachname</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+                <div class="form-element">
+                    <label for="message">Nachricht</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Wie kann ich Sie kontaktieren?</legend>
+
+                <div class="form-element">
+                    <label for="phone">Telefon</label>
+                    <input type="text" id="phone" name="phone">
+                </div>
+                <div class="form-element">
+                    <label for="mail">E-Mail</label>
+                    <input type="text" id="mail" name="mail">
+                </div>
+                <div class="form-element">
+                    <label for="type">Kontaktart</label>
+                    <select id="type" name="type">
+                        <option value="phone">Per Telefon</option>
+                        <option value="mail">Per E-Mail</option>
+                    </select>
+                </div>
+
+                <div class="form-element">
+                    <input type="submit" value="Absenden">
+                </div>
+            </fieldset>
+        </form>
+    </footer>
 </body>
 </html>
