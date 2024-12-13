@@ -105,3 +105,26 @@ label {
 input, textarea, select {
     width: 70%;
 }
+
+@media screen and (max-width: 400px) {
+    body {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
+    
+        grid-template-areas:
+            "nav" 
+            "header"
+            "main"
+            "aside"
+            "footer"
+        ;
+    }
+
+    fieldset {
+        width: unset;
+    }
+
+    main, footer {
+        padding: 10px;
+    }
+}
